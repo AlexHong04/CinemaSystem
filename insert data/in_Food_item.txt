@@ -1,0 +1,10 @@
+insert into food_item values('F001', 'Large Plain Popcorn',  'food', 25);
+insert into food_item values('F002', 'Small Plain Popcorn',  'food', 16);
+insert into food_item values('F003', 'Medium Plain Popcorn', 'food', 21);
+insert into food_item values('F004', 'Curly Fries',          'food', 13.90);
+insert into food_item values('F005', 'Pretzel Bites',        'food', 11.90);
+insert into food_item values('F006', 'Fries',                'food', 10.90);
+insert into food_item values('F007', 'Chicken Tenders',      'food', 7.90);
+insert into food_item values('F008', 'Coca-Cola',      'beverage', 8.90);
+insert into food_item values('F009', 'pepsi', '         beverage', 9.90);
+insert into food_item values('F010', 'water',          'beverage', 1.50);

@@ -1,0 +1,10 @@
+create table order_details(
+	customer_id	varchar(5) not null,
+	food_id		varchar(5) not null,
+	quantity	number,
+	order_date	date,
+	order_time	timestamp,
+primary key(customer_id,food_id),
+foreign key(customer_id) references Customer(customer_id),
+foreign key(food_id) references Food_item(food_id)
+);

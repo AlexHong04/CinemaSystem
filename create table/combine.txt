@@ -1,0 +1,42 @@
+create table Customer(
+	customer_id	 varchar(5) 	not Null,
+	first_name	 varchar(30)	not Null,
+	last_name	 varchar(30)	not Null,
+	gender		 char(1),
+	contact_no 	 varchar(12),
+	email		 varchar(30),
+	address		 varchar(100),
+primary key(customer_id),
+constraint chk_email check (REGEXP_LIKE(email,'^[a-zA-Z]\w+@(\S+)$')),
+constraint chk_gender check (UPPER(gender) in ('M','F'))
+); 
+
+create table Food_item (
+	food_id 	varchar(5) 	not Null,
+	name		varchar(25)	not Null,
+	type	 	varchar(25),
+	price		number(6,2),	
+primary key(food_id)
+);
+
+create table Member(
+	member_id	varchar(5) 	not Null,
+	type		varchar(25),
+	start_date	date,
+	expiry_date	date,
+	customer_id	varchar(5),
+primary key(member_id),
+foreign key(customer_id) references Customer(customer_id),
+constraint chk_start_date CHECK (start_date < expiry_date)
+);
+
+create table order_details(
+	customer_id	varchar(5) not null,
+	food_id		varchar(5) not null,
+	quantity	number,
+	order_date	date,
+	order_time	timestamp,
+primary key(customer_id,food_id),
+foreign key(customer_id) references Customer(customer_id),
+foreign key(food_id) references Food_item(food_id)
+);

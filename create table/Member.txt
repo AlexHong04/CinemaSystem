@@ -1,0 +1,12 @@
+create table Member(
+	member_id	varchar(5) 	not Null,
+	type		varchar(25),
+	start_date	date,
+	expiry_date	date,
+	customer_id	varchar(5),
+primary key(member_id),
+foreign key(customer_id) references Customer(customer_id),
+constraint chk_start_date CHECK (start_date < expiry_date)
+);
+
+

@@ -1,0 +1,10 @@
+insert into customer values('C001', 'Garrik', 'Linham', 'M', '010-3422133', 'glinham0@t-online.de', '90, Jalan Midah 19a, Taman Midah, 56000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur');
+insert into customer values('C002', 'Saxe', 'Welden', 'M', '019-1703380', 'swelden1@hp.com', '10, Jalan Durian 4, Taman Cheras, 56100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur');
+insert into customer values('C003', 'Dolli', 'Tomsett', 'F', '012-3232456', 'dtomsett2@sciencedirect.com', '12, Lorong Ketumbar 1, Taman Cheras, 56100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur');
+insert into customer values('C004', 'Olly', 'Rupel', 'F', '011-3679098', 'orupel3@imgur.com', '9, Jalan Perdana 2/20, Pandan Perdana, 55300 Kuala Lumpur, Selangor');
+insert into customer values('C005', 'Lisha', 'Grigoriev', 'F', '011-4578874', 'lgrigoriev4@yale.edu', '23, Jln Indah 22, Taman Cheras Indah, 56100 Kuala Lumpur, Selangor');
+insert into customer values('C006', 'Tanya', 'Swainson', 'F', '016-5688654', 'tswainson5@yolasite.com', '78, Jalan Pandan Indah 2/10, Pandan Indah, 55100 Kuala Lumpur, Selangor');
+insert into customer values('C007', 'Catharina', 'Gretton', 'F', '014-4567822', 'cgretton6@timesonline.co.uk', '4, Jalan Pandan Indah 5/4, Pandan Indah, 55100 Kuala Lumpur, Selangor');
+insert into customer values('C008', 'Dur', 'Vurley', 'M', '012-9013679', 'dvurley7@oakley.com', '24, Jalan Pandan Indah 4/9, Pandan Indah, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur');
+insert into customer values('C009', 'Nadine', 'Sleney', 'F', '013-7890902', 'nsleney8@spiegel.de', '1289, Jln KPAT 1, Kampung Baru Ampang, 68000 Ampang, Selangor');
+insert into customer values('C010', 'Howey', 'Tuhy', 'M', '018-3451223', 'htuhy9@t.co', '194, Jalan 10, Kampung Baru Ampang, 68000 Ampang, Selangor');
